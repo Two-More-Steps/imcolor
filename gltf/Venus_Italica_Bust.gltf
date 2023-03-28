@@ -1,0 +1,293 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "TurboSquid Stem Converter v1.0.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 15688,
+      "type": "VEC3",
+      "max": [
+        20.97673225402832,
+        16.99570655822754,
+        26.827428817749023
+      ],
+      "min": [
+        -20.729833602905273,
+        -17.50596809387207,
+        -26.827428817749023
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 15688,
+      "type": "VEC3",
+      "max": [
+        0.9999934434890747,
+        0.9995843172073364,
+        0.9999763369560242
+      ],
+      "min": [
+        -0.9997801184654236,
+        -0.9999988079071045,
+        -0.9999998807907104
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 15688,
+      "type": "VEC2",
+      "max": [
+        0.9968000054359436,
+        0.9980999827384949
+      ],
+      "min": [
+        0.0019000000320374966,
+        0.003300011157989502
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 90912,
+      "type": "SCALAR",
+      "max": [
+        15687.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 683840,
+      "uri": "Venus_Italica_Bust.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 188256,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 188256,
+      "byteLength": 188256,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 376512,
+      "byteLength": 125504,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 502016,
+      "byteLength": 181824,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "venus_italica_bust",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "alphaMode": "OPAQUE",
+      "occlusionTexture": {
+        "index": 1
+      },
+      "normalTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Venus_Italica_Bust_model",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": 0,
+          "indices": 3,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "Venus_Italica_Bust_$_PreRotation",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "Venus_Italica_Bust_$_GeometricTranslation",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        26.81586265563965,
+        1.0
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "Venus_Italica_Bust",
+      "children": [
+        4
+      ]
+    },
+    {
+      "name": "Venus_Italica_Bust_$_GeometricTranslationInverse",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        -26.81586265563965,
+        1.0
+      ],
+      "children": [
+        5
+      ]
+    },
+    {
+      "name": "node",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.12437629699707031,
+        0.2732381820678711,
+        26.827428817749023,
+        1.0
+      ],
+      "children": [
+        6
+      ]
+    },
+    {
+      "name": "Venus_Italica_Bust_model",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/baseColor.jpg"
+    },
+    {
+      "uri": "textures/occlusionRoughnessMetallic.jpg"
+    },
+    {
+      "uri": "textures/normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
